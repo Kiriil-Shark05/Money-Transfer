@@ -1,0 +1,380 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: #F4F9FF;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  line-height: 1.5;
+  overflow: hidden;
+
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+header {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 110px;
+}
+
+.header-wrapper {
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+}
+
+
+.header-menu, .header-login, .header-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-navigation {
+  padding-right: 61px;
+  border-right: 2px solid #D7DBE0;
+}
+
+.header-navigation-item {
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.header-navigation-item3 {
+  margin-right: 0;
+}
+
+.header-login-item1 {
+  padding-left: 24px;
+  text-decoration: none;
+}
+
+.header-login-item2 {
+  background-color: #fff;
+  border-radius: 97px;
+  width: 131px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22px;
+  transition: 0.3s all;
+  text-decoration: none;
+}
+
+.header-login-item2 div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #4DAAF8;
+  text-decoration: none;
+}
+
+.header-login-item2.active {
+  background-color: #f3f1f1;
+}
+
+
+
+
+.header-navigation-item, .header-login-item1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #8B8D90;
+}
+
+.section-main-text-title1 div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #39A1F7;
+}
+
+.section-main-text-title2 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 76px;
+  /* or 127% */
+
+
+  color: #202020;
+}
+
+.section-main-text-description div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+
+  color: #787A80;
+
+}
+
+.section-main-text-description {
+  max-width: 553px;
+}
+
+.section-main-text-button1 {
+  width: 197px;
+  height: 63px;
+  background-color: #39A1F7;
+}
+
+.section-main-text-button1.active {
+  background-color: #0681e7;
+}
+
+.section-main-text-button1 div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+  margin-right: 20px;
+
+}
+
+
+.section-main-text-button2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #747579;
+}
+
+.section-main-text-button2 span {
+  color: #39A1F7;
+}
+
+.section-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-main-wrapper {
+  width: 100%;
+  max-width: 1256px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 41px;
+
+
+}
+
+
+
+.section-main-text-title1 {
+  margin-bottom: 12px;
+}
+
+.section-main-text-title2 {
+  margin-bottom: 20px;
+}
+
+.section-main-text-button1 {
+  margin-left: 0;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.section-main-text-button2 {
+  margin-top: 60px;
+}
+
+.section-main-text-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.section-main-text {
+  width: 100%;
+  max-width: 565px;
+}
+
+
+
+.section-pay-text {
+  order: 1;
+}
+
+.section-pay-img {
+  order: 2;
+}
+
+.section-pay-text-title2 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #202020;
+}
+
+
+.section-pay-text-description div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 194% */
+
+
+  color: #6A6C72;
+}
+
+.section-pay-text-title2 {
+  max-width: 307px;
+}
+
+.absolute-img {
+  position: absolute;
+  z-index: 2;
+  margin-left: 210px;
+  margin-top: 185px;
+
+}
+
+.section-pay-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+
+
+
+.section-pay-wrapper {
+  width: 100%;
+  max-width: 1320px;
+  margin-right: 0;
+}
+
+.section-pay-text-button1 {
+  background: rgba(57, 161, 247, 0.1);
+  border: 1px solid #39A1F7;
+  box-sizing: border-box;
+  border-radius: 53px;
+  width: 149px;
+  height: 48px;
+
+}
+
+.section-pay-text-button1.active {
+  background: rgba(57, 161, 247, 0.3);
+}
+
+.section-pay-text-button1 div {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #39A1F7;
+  opacity: 1;
+  margin-right: 0;
+}
+
+.section-pay-text-description {
+  max-width: 486px;
+}
+
+.section-pay2-text-title2 {
+  max-width: 548px;
+}
+
+.section-pay2-img {
+  order: 1;
+  margin-left: 0;
+}
+
+.section-pay2-text {
+  order: 2;
+}
